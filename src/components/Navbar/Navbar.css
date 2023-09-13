@@ -1,0 +1,20 @@
+.category-container .category-item .downbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+    border: 2px solid green;
+    z-index: 10;
+    cursor: pointer;
+    display: none;
+}
+
+.navbarParent {
+    z-index: 1;
+}
+
+.category-container .category-item:hover .downbar {
+    display: block;
+}
